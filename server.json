@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/contas_comgas_download_seg_via-mcp",
+  "title": "Comgás: Download de 2ª Via",
+  "description": "Comgás: 2nd Copy Download, official-source lookup. Platform-hosted, pay per query with prepaid credi",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/contas_comgas_download_seg_via-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_contas_comgas_download_seg_via"
+    }
+  ]
+}
